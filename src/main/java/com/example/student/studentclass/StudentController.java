@@ -13,7 +13,7 @@ public class StudentController {
 
     @GetMapping()
     public Student getStudents() {
-        return new Student("Naresh", "Naresh.test@gmnail.com", 26, LocalDate.now());
+        return new Student("Naresh", "naresh.test@gmnail.com", 26, LocalDate.now());
     }
 
 }
